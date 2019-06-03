@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="utf-8"/>
+    <title>PBR Gun</title>
+    <script src="babylon.js"></script>
+    <script src="babylon.objFileLoader.js"></script>
+    <script src="hand-1.3.9.min.js"></script>
+    <script>
+        document.ontouchmove = function(event){
+            event.preventDefault();
+        }
+    </script>
+    <script src="vconsole.min.js"></script>
+    <script>
+        var vConsole = new VConsole();
+    </script>    
+    <style>
+        #renderCanvas {
+            width   : 800px;
+            height  : 800px;
+            touch-action: none;
+        }
+    </style>
+</head>
+<body>
+    <label id='fps'>1</label>
+    <canvas id="renderCanvas"></canvas>
+    <script src="mainMobile.js"></script>
+</body>
+</html>
