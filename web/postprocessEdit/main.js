@@ -139,8 +139,8 @@ window.addEventListener('DOMContentLoaded', function(){
         camera.setPosition(new BABYLON.Vector3(0, 0, 600));
         camera.attachControl(canvas, true);          
 
-        hdrTexture = new BABYLON.CubeTexture.CreateFromPrefilteredData("https://zhangzhu123.github.io/zhangzhuhome/asset/postprocess/doge.dds", scene);
-        skyTexture = new BABYLON.CubeTexture.CreateFromPrefilteredData("https://zhangzhu123.github.io/zhangzhuhome/asset/postprocess/doge.dds", scene);        
+        hdrTexture = new BABYLON.CubeTexture.CreateFromPrefilteredData("https://zhangzhu123.github.io/zhangzhuhome/asset/PBR-Edit/doge2SpecularHDR.dds", scene);
+        skyTexture = new BABYLON.CubeTexture.CreateFromPrefilteredData("https://zhangzhu123.github.io/zhangzhuhome/asset/PBR-Edit/doge2SpecularHDR.dds", scene);        
         
         //
         createMaterial();
