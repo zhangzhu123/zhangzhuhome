@@ -12,12 +12,12 @@ window.addEventListener('DOMContentLoaded', function(){
     var model_dic = new Array();
    
     model_dic["zbrush-for-concept-mech-design-dver"] = new Array();
-    model_dic["zbrush-for-concept-mech-design-dver"]["albedoTexture"] = "http://oydalubb3.bkt.clouddn.com/default_albedo.jpeg";
-    model_dic["zbrush-for-concept-mech-design-dver"]["reflectivityTexture"] = "http://oydalubb3.bkt.clouddn.com/default_metallic.jpeg"
-    model_dic["zbrush-for-concept-mech-design-dver"]["microSurfaceTexture"] = "http://oydalubb3.bkt.clouddn.com/default_roughness.jpeg"
-    model_dic["zbrush-for-concept-mech-design-dver"]["bumpTexture"] = "http://oydalubb3.bkt.clouddn.com/default_normal.jpeg"
-    model_dic["zbrush-for-concept-mech-design-dver"]["ambientTexture"] = "http://oydalubb3.bkt.clouddn.com/default_AO.jpeg"
-    model_dic["zbrush-for-concept-mech-design-dver"]["emissiveTexture"] = "http://oydalubb3.bkt.clouddn.com/default_emissive.jpeg"
+    model_dic["zbrush-for-concept-mech-design-dver"]["albedoTexture"] = "https://zhangzhu123.github.io/zhangzhuhome/asset/postprocess/default_albedo.jpeg";
+    model_dic["zbrush-for-concept-mech-design-dver"]["reflectivityTexture"] = "https://zhangzhu123.github.io/zhangzhuhome/asset/postprocess/default_metallic.jpeg"
+    model_dic["zbrush-for-concept-mech-design-dver"]["microSurfaceTexture"] = "https://zhangzhu123.github.io/zhangzhuhome/asset/postprocess/default_roughness.jpeg"
+    model_dic["zbrush-for-concept-mech-design-dver"]["bumpTexture"] = "https://zhangzhu123.github.io/zhangzhuhome/asset/postprocess/default_normal.jpeg"
+    model_dic["zbrush-for-concept-mech-design-dver"]["ambientTexture"] = "https://zhangzhu123.github.io/zhangzhuhome/asset/postprocess/default_AO.jpeg"
+    model_dic["zbrush-for-concept-mech-design-dver"]["emissiveTexture"] = "https://zhangzhu123.github.io/zhangzhuhome/asset/postprocess/default_emissive.jpeg"
     model_dic["zbrush-for-concept-mech-design-dver"]["opacityTexture"] = false;       
     
     var pbr;
@@ -123,7 +123,7 @@ window.addEventListener('DOMContentLoaded', function(){
     
     var createModel = function(){
         BABYLON.OBJFileLoader.OPTIMIZE_WITH_UV = true;
-        BABYLON.SceneLoader.ImportMesh("", "", "http://oydalubb3.bkt.clouddn.com/zbrush-for-concept-mech-design-dver.obj", scene, function (newMeshes) {
+        BABYLON.SceneLoader.ImportMesh("", "", "https://zhangzhu123.github.io/zhangzhuhome/asset/postprocess/zbrush-for-concept-mech-design-dver.obj", scene, function (newMeshes) {
             newMeshes[0].material = pbr;
             model = newMeshes[0];
         });   
@@ -139,8 +139,8 @@ window.addEventListener('DOMContentLoaded', function(){
         camera.setPosition(new BABYLON.Vector3(0, 0, 600));
         camera.attachControl(canvas, true);          
 
-        hdrTexture = new BABYLON.CubeTexture.CreateFromPrefilteredData("http://oydalubb3.bkt.clouddn.com/doge.dds", scene);
-        skyTexture = new BABYLON.CubeTexture.CreateFromPrefilteredData("http://oydalubb3.bkt.clouddn.com/doge.dds", scene);        
+        hdrTexture = new BABYLON.CubeTexture.CreateFromPrefilteredData("https://zhangzhu123.github.io/zhangzhuhome/asset/PBR-Edit/doge2SpecularHDR.dds", scene);
+        skyTexture = new BABYLON.CubeTexture.CreateFromPrefilteredData("https://zhangzhu123.github.io/zhangzhuhome/asset/PBR-Edit/doge2SpecularHDR.dds", scene);        
         
         //
         createMaterial();
