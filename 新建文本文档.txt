@@ -1,2 +1,0 @@
-nohup python -m SimpleHTTPServer 80 &
-scp -r /c/zhangzhu/babylon/ownBabylon/babylonjs-3.0-M/demo/http root@39.106.46.198:~/http
