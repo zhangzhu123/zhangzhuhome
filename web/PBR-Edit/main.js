@@ -3,21 +3,21 @@ window.addEventListener('DOMContentLoaded', function(){
 
     var engine = new BABYLON.Engine(canvas, false);
     
-    var IBL_path = "http://oydalubb3.bkt.clouddn.com/doge2SpecularHDR.dds"
+    var IBL_path = "https://zhangzhu123.github.io/zhangzhuhome/asset/PBR-Edit/doge2SpecularHDR.dds"
     var IBL_list = ['doge2SpecularHDR.dds'];
     
     var model;
     var model_name = "robo_obj_pose4";
-    var model_path = "http://oydalubb3.bkt.clouddn.com/robo_obj_pose4.obj";
+    var model_path = "https://zhangzhu123.github.io/zhangzhuhome/asset/PBR-Edit/robo_obj_pose4.obj";
     var model_dic = new Array();
     
     model_dic["robo_obj_pose4"] = new Array();
-    model_dic["robo_obj_pose4"]["albedoTexture"] = "http://oydalubb3.bkt.clouddn.com/Texture_1K.jpg";
-    model_dic["robo_obj_pose4"]["reflectivityTexture"] = "http://oydalubb3.bkt.clouddn.com/98a91fc2e52c4db6a4be147a471e98ca.jpeg";
+    model_dic["robo_obj_pose4"]["albedoTexture"] = "https://zhangzhu123.github.io/zhangzhuhome/asset/PBR-Edit/Texture_1K.jpg";
+    model_dic["robo_obj_pose4"]["reflectivityTexture"] = "https://zhangzhu123.github.io/zhangzhuhome/asset/PBR-Edit/98a91fc2e52c4db6a4be147a471e98ca.jpeg";
     model_dic["robo_obj_pose4"]["microSurfaceTexture"] = false;
-    model_dic["robo_obj_pose4"]["bumpTexture"] = "http://oydalubb3.bkt.clouddn.com/LP_BodyNormalsMap_1K.jpg";
+    model_dic["robo_obj_pose4"]["bumpTexture"] = "https://zhangzhu123.github.io/zhangzhuhome/asset/PBR-Edit/LP_BodyNormalsMap_1K.jpg";
     model_dic["robo_obj_pose4"]["ambientTexture"] = false;
-    model_dic["robo_obj_pose4"]["emissiveTexture"] = "http://oydalubb3.bkt.clouddn.com/6bf488141a8a487599953582478eca36.jpeg";
+    model_dic["robo_obj_pose4"]["emissiveTexture"] = "https://zhangzhu123.github.io/zhangzhuhome/asset/PBR-Edit/6bf488141a8a487599953582478eca36.jpeg";
     model_dic["robo_obj_pose4"]["opacityTexture"] = false;    
     
     var pbr;
