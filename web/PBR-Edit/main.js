@@ -8,25 +8,25 @@ window.addEventListener('DOMContentLoaded', function(){
     
     var model;
     var model_name = "robo_obj_pose4";
-    // var model_path = "https://zhangzhu123.github.io/zhangzhuhome/asset/PBR-Edit/robo_obj_pose4.obj";
-    var model_path = "https://zhangzhu123.github.io/zhangzhuhome/asset/PBR-show/model.obj";
+    var model_path = "https://zhangzhu123.github.io/zhangzhuhome/asset/PBR-Edit/robo_obj_pose4.obj";
+    // var model_path = "https://zhangzhu123.github.io/zhangzhuhome/asset/PBR-show/model.obj";
     var model_dic = new Array();
     
     model_dic["robo_obj_pose4"] = new Array();
-    // model_dic["robo_obj_pose4"]["albedoTexture"] = "https://zhangzhu123.github.io/zhangzhuhome/asset/PBR-Edit/Texture_1K.jpg";
-    // model_dic["robo_obj_pose4"]["reflectivityTexture"] = "https://zhangzhu123.github.io/zhangzhuhome/asset/PBR-Edit/98a91fc2e52c4db6a4be147a471e98ca.jpeg";
-    // model_dic["robo_obj_pose4"]["microSurfaceTexture"] = false;
-    // model_dic["robo_obj_pose4"]["bumpTexture"] = "https://zhangzhu123.github.io/zhangzhuhome/asset/PBR-Edit/LP_BodyNormalsMap_1K.jpg";
-    // model_dic["robo_obj_pose4"]["ambientTexture"] = false;
-    // model_dic["robo_obj_pose4"]["emissiveTexture"] = "https://zhangzhu123.github.io/zhangzhuhome/asset/PBR-Edit/6bf488141a8a487599953582478eca36.jpeg";
-    // model_dic["robo_obj_pose4"]["opacityTexture"] = false;   
-    model_dic["robo_obj_pose4"]["albedoTexture"] = "https://zhangzhu123.github.io/zhangzhuhome/asset/PBR-show/albedo.jpg";
-    model_dic["robo_obj_pose4"]["reflectivityTexture"] = "https://zhangzhu123.github.io/zhangzhuhome/asset/PBR-show/metallic.png";
-    model_dic["robo_obj_pose4"]["microSurfaceTexture"] = "https://zhangzhu123.github.io/zhangzhuhome/asset/PBR-show/ao.jpg";
-    model_dic["robo_obj_pose4"]["bumpTexture"] = "https://zhangzhu123.github.io/zhangzhuhome/asset/PBR-show/roughness.jpg";
-    model_dic["robo_obj_pose4"]["ambientTexture"] = "https://zhangzhu123.github.io/zhangzhuhome/asset/PBR-show/ao.jpg";
-    model_dic["robo_obj_pose4"]["emissiveTexture"] = false;
+    model_dic["robo_obj_pose4"]["albedoTexture"] = "https://zhangzhu123.github.io/zhangzhuhome/asset/PBR-Edit/Texture_1K.jpg";
+    model_dic["robo_obj_pose4"]["reflectivityTexture"] = "https://zhangzhu123.github.io/zhangzhuhome/asset/PBR-Edit/98a91fc2e52c4db6a4be147a471e98ca.jpeg";
+    model_dic["robo_obj_pose4"]["microSurfaceTexture"] = false;
+    model_dic["robo_obj_pose4"]["bumpTexture"] = "https://zhangzhu123.github.io/zhangzhuhome/asset/PBR-Edit/LP_BodyNormalsMap_1K.jpg";
+    model_dic["robo_obj_pose4"]["ambientTexture"] = false;
+    model_dic["robo_obj_pose4"]["emissiveTexture"] = "https://zhangzhu123.github.io/zhangzhuhome/asset/PBR-Edit/6bf488141a8a487599953582478eca36.jpeg";
     model_dic["robo_obj_pose4"]["opacityTexture"] = false;   
+    // model_dic["robo_obj_pose4"]["albedoTexture"] = "https://zhangzhu123.github.io/zhangzhuhome/asset/PBR-show/albedo.jpg";
+    // model_dic["robo_obj_pose4"]["reflectivityTexture"] = "https://zhangzhu123.github.io/zhangzhuhome/asset/PBR-show/metallic.png";
+    // model_dic["robo_obj_pose4"]["microSurfaceTexture"] = "https://zhangzhu123.github.io/zhangzhuhome/asset/PBR-show/ao.jpg";
+    // model_dic["robo_obj_pose4"]["bumpTexture"] = "https://zhangzhu123.github.io/zhangzhuhome/asset/PBR-show/roughness.jpg";
+    // model_dic["robo_obj_pose4"]["ambientTexture"] = "https://zhangzhu123.github.io/zhangzhuhome/asset/PBR-show/ao.jpg";
+    // model_dic["robo_obj_pose4"]["emissiveTexture"] = false;
+    // model_dic["robo_obj_pose4"]["opacityTexture"] = false;   
     
     var pbr;
     var hdrTexture = false;  
