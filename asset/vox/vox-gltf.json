@@ -1,161 +1,238 @@
 {
-   "accessors" : {
-      "root_node_geo_2_COLOR" : {
-         "bufferView" : "root_node_geo_2_COLOR_Buffer",
-         "byteOffset" : 0,
-         "byteStride" : 16,
-         "componentType" : 5126,
-         "count" : 156121,
-         "max" : [ 1, 1, 1, 1 ],
-         "min" : [ 0, 0, 0, 0 ],
-         "name" : "root_node_geo_2_COLOR",
-         "type" : "VEC4"
+   "accessors": {
+      "root_node_geo_2_COLOR": {
+         "bufferView": "root_node_geo_2_COLOR_Buffer",
+         "byteOffset": 0,
+         "byteStride": 16,
+         "componentType": 5126,
+         "count": 156121,
+         "max": [
+            1,
+            1,
+            1,
+            1
+         ],
+         "min": [
+            0,
+            0,
+            0,
+            0
+         ],
+         "name": "root_node_geo_2_COLOR",
+         "type": "VEC4"
       },
-      "root_node_geo_2_NORMAL" : {
-         "bufferView" : "root_node_geo_2_NORMAL_Buffer",
-         "byteOffset" : 0,
-         "byteStride" : 12,
-         "componentType" : 5126,
-         "count" : 156121,
-         "max" : [ 0.5, 0.5, 0.5 ],
-         "min" : [ -0.5, -0.5, -0.5 ],
-         "name" : "root_node_geo_2_NORMAL",
-         "type" : "VEC3"
+      "root_node_geo_2_NORMAL": {
+         "bufferView": "root_node_geo_2_NORMAL_Buffer",
+         "byteOffset": 0,
+         "byteStride": 12,
+         "componentType": 5126,
+         "count": 156121,
+         "max": [
+            0.5,
+            0.5,
+            0.5
+         ],
+         "min": [
+            -0.5,
+            -0.5,
+            -0.5
+         ],
+         "name": "root_node_geo_2_NORMAL",
+         "type": "VEC3"
       },
-      "root_node_geo_2_POSITION" : {
-         "bufferView" : "root_node_geo_2_POSITION_Buffer",
-         "byteOffset" : 0,
-         "byteStride" : 12,
-         "componentType" : 5126,
-         "count" : 156121,
-         "max" : [ 56, 67, 56 ],
-         "min" : [ -56, 0, -56 ],
-         "name" : "root_node_geo_2_POSITION",
-         "type" : "VEC3"
+      "root_node_geo_2_POSITION": {
+         "bufferView": "root_node_geo_2_POSITION_Buffer",
+         "byteOffset": 0,
+         "byteStride": 12,
+         "componentType": 5126,
+         "count": 156121,
+         "max": [
+            56,
+            67,
+            56
+         ],
+         "min": [
+            -56,
+            0,
+            -56
+         ],
+         "name": "root_node_geo_2_POSITION",
+         "type": "VEC3"
       },
-      "root_node_geo_2_Polygons" : {
-         "bufferView" : "root_node_geo_2_Polygons_Buffer",
-         "byteOffset" : 0,
-         "byteStride" : 4,
-         "componentType" : 5125,
-         "count" : 694776,
-         "name" : "root_node_geo_2_Polygons",
-         "type" : "SCALAR"
+      "root_node_geo_2_Polygons": {
+         "bufferView": "root_node_geo_2_Polygons_Buffer",
+         "byteOffset": 0,
+         "byteStride": 4,
+         "componentType": 5125,
+         "count": 694776,
+         "name": "root_node_geo_2_Polygons",
+         "type": "SCALAR"
       },
-      "root_node_geo_2_TEXCOORD_0" : {
-         "bufferView" : "root_node_geo_2_TEXCOORD_0_Buffer",
-         "byteOffset" : 0,
-         "byteStride" : 8,
-         "componentType" : 5126,
-         "count" : 156121,
-         "max" : [ 0, 0 ],
-         "min" : [ 0, 0 ],
-         "name" : "root_node_geo_2_TEXCOORD_0",
-         "type" : "VEC2"
+      "root_node_geo_2_TEXCOORD_0": {
+         "bufferView": "root_node_geo_2_TEXCOORD_0_Buffer",
+         "byteOffset": 0,
+         "byteStride": 8,
+         "componentType": 5126,
+         "count": 156121,
+         "max": [
+            0,
+            0
+         ],
+         "min": [
+            0,
+            0
+         ],
+         "name": "root_node_geo_2_TEXCOORD_0",
+         "type": "VEC2"
       }
    },
-   "animations" : null,
-   "bufferViews" : {
-      "root_node_geo_2_COLOR_Buffer" : {
-         "buffer" : "Snow.bake",
-         "byteLength" : 2497936,
-         "byteOffset" : 3746904,
-         "name" : "root_node_geo_2_COLOR_Buffer",
-         "target" : 34963
+   "animations": null,
+   "bufferViews": {
+      "root_node_geo_2_COLOR_Buffer": {
+         "buffer": "Snow.bake",
+         "byteLength": 2497936,
+         "byteOffset": 3746904,
+         "name": "root_node_geo_2_COLOR_Buffer",
+         "target": 34963
       },
-      "root_node_geo_2_NORMAL_Buffer" : {
-         "buffer" : "Snow.bake",
-         "byteLength" : 1873452,
-         "byteOffset" : 1873452,
-         "name" : "root_node_geo_2_NORMAL_Buffer",
-         "target" : 34963
+      "root_node_geo_2_NORMAL_Buffer": {
+         "buffer": "Snow.bake",
+         "byteLength": 1873452,
+         "byteOffset": 1873452,
+         "name": "root_node_geo_2_NORMAL_Buffer",
+         "target": 34963
       },
-      "root_node_geo_2_POSITION_Buffer" : {
-         "buffer" : "Snow.bake",
-         "byteLength" : 1873452,
-         "byteOffset" : 0,
-         "name" : "root_node_geo_2_POSITION_Buffer",
-         "target" : 34963
+      "root_node_geo_2_POSITION_Buffer": {
+         "buffer": "Snow.bake",
+         "byteLength": 1873452,
+         "byteOffset": 0,
+         "name": "root_node_geo_2_POSITION_Buffer",
+         "target": 34963
       },
-      "root_node_geo_2_Polygons_Buffer" : {
-         "buffer" : "Snow.bake",
-         "byteLength" : 2779104,
-         "byteOffset" : 7493808,
-         "name" : "root_node_geo_2_Polygons_Buffer",
-         "target" : 34963
+      "root_node_geo_2_Polygons_Buffer": {
+         "buffer": "Snow.bake",
+         "byteLength": 2779104,
+         "byteOffset": 7493808,
+         "name": "root_node_geo_2_Polygons_Buffer",
+         "target": 34963
       },
-      "root_node_geo_2_TEXCOORD_0_Buffer" : {
-         "buffer" : "Snow.bake",
-         "byteLength" : 1248968,
-         "byteOffset" : 6244840,
-         "name" : "root_node_geo_2_TEXCOORD_0_Buffer",
-         "target" : 34963
+      "root_node_geo_2_TEXCOORD_0_Buffer": {
+         "buffer": "Snow.bake",
+         "byteLength": 1248968,
+         "byteOffset": 6244840,
+         "name": "root_node_geo_2_TEXCOORD_0_Buffer",
+         "target": 34963
       }
    },
-   "buffers" : {
-      "Snow.bake" : {
-         "byteLength" : 10272912,
-         "name" : "Snow.bake",
-         "type" : "arraybuffer",
-         "uri" : "Snow.bake.bin"
+   "buffers": {
+      "Snow.bake": {
+         "byteLength": 10272912,
+         "name": "Snow.bake",
+         "type": "arraybuffer",
+         "uri": "vox_bin.bin"
       }
    },
-   "cameras" : {},
-   "env" : {},
-   "images" : null,
-   "lights" : {},
-   "materials" : {
-      "root_node_mat_3" : {
-         "name" : "root_node_mat_3",
-         "technique" : "StandardMaterial",
-         "values" : {
-            "diffuse" : {
-               "color" : [ 1, 1, 1, 1 ],
-               "type" : "color"
+   "cameras": {},
+   "env": {},
+   "images": null,
+   "lights": {},
+   "materials": {
+      "root_node_mat_3": {
+         "name": "root_node_mat_3",
+         "technique": "StandardMaterial",
+         "values": {
+            "diffuse": {
+               "color": [
+                  1,
+                  1,
+                  1,
+                  1
+               ],
+               "type": "color"
             }
          }
       }
    },
-   "meshes" : {
-      "root_node_geo_2" : {
-         "name" : "root_node_geo_2",
-         "primitives" : [
+   "meshes": {
+      "root_node_geo_2": {
+         "name": "root_node_geo_2",
+         "primitives": [
             {
-               "attributes" : {
-                  "COLOR" : "root_node_geo_2_COLOR",
-                  "NORMAL" : "root_node_geo_2_NORMAL",
-                  "POSITION" : "root_node_geo_2_POSITION",
-                  "TEXCOORD_0" : "root_node_geo_2_TEXCOORD_0"
+               "attributes": {
+                  "COLOR": "root_node_geo_2_COLOR",
+                  "NORMAL": "root_node_geo_2_NORMAL",
+                  "POSITION": "root_node_geo_2_POSITION",
+                  "TEXCOORD_0": "root_node_geo_2_TEXCOORD_0"
                },
-               "indices" : "root_node_geo_2_Polygons",
-               "material" : "root_node_mat_3",
-               "mode" : "4"
+               "indices": "root_node_geo_2_Polygons",
+               "material": "root_node_mat_3",
+               "mode": "4"
             }
          ]
       }
    },
-   "nodes" : {
-      "root_node_0" : {
-         "children" : [ "root_node_1" ],
-         "matrix" : [ 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1 ],
-         "name" : "root_node_0"
+   "nodes": {
+      "root_node_0": {
+         "children": [
+            "root_node_1"
+         ],
+         "matrix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+         ],
+         "name": "root_node_0"
       },
-      "root_node_1" : {
-         "children" : null,
-         "matrix" : [ 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1 ],
-         "meshes" : [ "root_node_geo_2" ],
-         "name" : "root_node_1"
+      "root_node_1": {
+         "children": null,
+         "matrix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+         ],
+         "meshes": [
+            "root_node_geo_2"
+         ],
+         "name": "root_node_1"
       }
    },
-   "scene" : "tst_scene",
-   "scenes" : {
-      "tst_scene" : {
-         "animation" : {},
-         "nodes" : [ "root_node_0" ]
+   "scene": "tst_scene",
+   "scenes": {
+      "tst_scene": {
+         "animation": {},
+         "nodes": [
+            "root_node_0"
+         ]
       }
    },
-   "skins" : null,
-   "sounds" : {},
-   "techniques" : null,
-   "textures" : null
+   "skins": null,
+   "sounds": {},
+   "techniques": null,
+   "textures": null
 }
