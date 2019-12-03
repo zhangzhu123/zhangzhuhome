@@ -80,7 +80,7 @@ window.addEventListener('DOMContentLoaded', function(){
         waveC.waveTexture = waveB;
         
         //var skyBox = new BABYLON.CubeTexture.CreateFromPrefilteredData("/demo/water/hdrlib_com.dds", scene);
-        var skyBox = new BABYLON.CubeTexture("http://oydalubb3.bkt.clouddn.com/CloudyLightRays", scene);        
+        var skyBox = new BABYLON.CubeTexture("https://zhangzhu123.github.io/zhangzhuhome/asset/wave/CloudyLightRays", scene);        
         
         var waterMaterial = new BABYLON.ShaderMaterial("test", scene, {
                 vertex: "water",
@@ -104,7 +104,7 @@ window.addEventListener('DOMContentLoaded', function(){
         }        
       
         var model;
-        BABYLON.SceneLoader.ImportMesh("", "", "http://oydalubb3.bkt.clouddn.com/waterPlane.obj", scene, function (newMeshes) {
+        BABYLON.SceneLoader.ImportMesh("", "", "https://zhangzhu123.github.io/zhangzhuhome/asset/wave/waterPlane.obj", scene, function (newMeshes) {
             newMeshes[0].material = waterMaterial;
             //newMeshes[0].rotation.x  =  -1.5707;
             model = newMeshes[0];

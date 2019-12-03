@@ -62,12 +62,12 @@ window.addEventListener('DOMContentLoaded', function(){
         
         var human = new BABYLON.Mesh("mesh1", scene);
         
-        var myRequest = new Request('http://oydalubb3.bkt.clouddn.com/vox-gltf.json');
+        var myRequest = new Request('https://zhangzhu123.github.io/zhangzhuhome/asset/vox/vox-gltf.json');
         fetch(myRequest).then(function(response) {
             return response.json().then(function(gltf) {
             
                 
-                BABYLON.Tools.LoadFile("http://oydalubb3.bkt.clouddn.com/vox_bin.bin", function(data) {
+                BABYLON.Tools.LoadFile("https://zhangzhu123.github.io/zhangzhuhome/asset/vox/vox_bin.bin", function(data) {
                     var bin = data;
                     
                     var _mesh = gltf.meshes["root_node_geo_2"];
